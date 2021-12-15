@@ -2,13 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player : MonoBehaviour
+public class playerController : MonoBehaviour
 {
     [SerializeField]
     float speed;
+
+    [SerializeField]
     float shootSpeed;
-    GameObject bullet;
-    float playerLives = 3;
+
+    [SerializeField]
+    GameObject blastSkillObjects;
+
+    [SerializeField]
+    GameObject laserEyes;
+
+    [SerializeField]
+    float egoMeter = 100;
+
+    [SerializeField]
+    float energyMeter = 100;
+
+    [SerializeField]
+    float chipsOnShoulder;
 
     // Start is called before the first frame update
 
@@ -16,9 +31,8 @@ public class player : MonoBehaviour
     {
         if (collision.gameObject.tag == "EnemyBullet")
         {
-            //Debug.Log("Destroyed bullet! and hit player");           
-            playerLives--;
-            Debug.Log(playerLives);
+            egoMeter -= 10;           
+            Debug.Log(egoMeter);
         }
     }
     void Start()
@@ -30,7 +44,7 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(playerLives <= 0)
+        if(chipsOnShoulder <= 0)
         {
             Destroy(gameObject);
             Debug.Log("Game over!");
@@ -55,7 +69,18 @@ public class player : MonoBehaviour
 
         while (shootInput)
         {
-            Instantiate(bullet);
+            //laserEyes.renderer.enabled = false;
+        }
+
+        if(egoMeter <= 0)
+        {
+            Debug.Log("Player returns to beginning of level and loses 1 chip on shoulder");
+            chipsOnShoulder -= 0;
+        }
+
+        if(chipsOnShoulder <= 0)
+        {
+            Debug.Log("Game Over");
         }
     }
 }
