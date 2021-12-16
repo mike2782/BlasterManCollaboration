@@ -42,6 +42,10 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown("space") == true)
+        {
+            Debug.Log("space pressed!");
+        }
         if(chipsOnShoulder <= 0)
         {
             Destroy(gameObject);
