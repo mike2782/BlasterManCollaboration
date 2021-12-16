@@ -1,0 +1,2160 @@
+fileFormatVersion: 2
+guid: 8571fc71b567c5f47bc9d7ddd241f088
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3557046008568040195
+    second: Henchman2-removebg-preview_0
+  - first:
+      213: -6039707828330905691
+    second: Henchman2-removebg-preview_1
+  - first:
+      213: -6972990624285175427
+    second: Henchman2-removebg-preview_2
+  - first:
+      213: 2442818726659970027
+    second: Henchman2-removebg-preview_3
+  - first:
+      213: 7958103515366798
+    second: Henchman2-removebg-preview_4
+  - first:
+      213: -6448011679394352568
+    second: Henchman2-removebg-preview_5
+  - first:
+      213: 5509363442358225251
+    second: Henchman2-removebg-preview_6
+  - first:
+      213: 3413444984192282601
+    second: Henchman2-removebg-preview_7
+  - first:
+      213: -7800819227946892502
+    second: Henchman2-removebg-preview_8
+  - first:
+      213: 144770290878503621
+    second: Henchman2-removebg-preview_9
+  - first:
+      213: 9105514574844553407
+    second: Henchman2-removebg-preview_10
+  - first:
+      213: 2443294155021594815
+    second: Henchman2-removebg-preview_11
+  - first:
+      213: -7378315436927506454
+    second: Henchman2-removebg-preview_12
+  - first:
+      213: 7511987949147802266
+    second: Henchman2-removebg-preview_13
+  - first:
+      213: -1475351648234943379
+    second: Henchman2-removebg-preview_14
+  - first:
+      213: 6339764360023593469
+    second: Henchman2-removebg-preview_15
+  - first:
+      213: -6261287926111991581
+    second: Henchman2-removebg-preview_16
+  - first:
+      213: -1371349927925591704
+    second: Henchman2-removebg-preview_17
+  - first:
+      213: 7474465828654635654
+    second: Henchman2-removebg-preview_18
+  - first:
+      213: 5778071261239933891
+    second: Henchman2-removebg-preview_19
+  - first:
+      213: 3621035685340848226
+    second: Henchman2-removebg-preview_20
+  - first:
+      213: -7000918817568704259
+    second: Henchman2-removebg-preview_21
+  - first:
+      213: 7778416979745979836
+    second: Henchman2-removebg-preview_22
+  - first:
+      213: -5036807582395657806
+    second: Henchman2-removebg-preview_23
+  - first:
+      213: -353469089833290861
+    second: Henchman2-removebg-preview_24
+  - first:
+      213: 4066036370673326018
+    second: Henchman2-removebg-preview_25
+  - first:
+      213: 6056554749450604546
+    second: Henchman2-removebg-preview_26
+  - first:
+      213: -4997038173556824054
+    second: Henchman2-removebg-preview_27
+  - first:
+      213: -48605226651870569
+    second: Henchman2-removebg-preview_28
+  - first:
+      213: 7108359401816515509
+    second: Henchman2-removebg-preview_29
+  - first:
+      213: -8809497733354658048
+    second: Henchman2-removebg-preview_30
+  - first:
+      213: 86306512857148362
+    second: Henchman2-removebg-preview_31
+  - first:
+      213: 6845687226027963031
+    second: Henchman2-removebg-preview_32
+  - first:
+      213: 8413724517561670822
+    second: Henchman2-removebg-preview_33
+  - first:
+      213: -3604727129976580256
+    second: Henchman2-removebg-preview_34
+  - first:
+      213: -2063345979981163576
+    second: Henchman2-removebg-preview_35
+  - first:
+      213: -4622809865538176122
+    second: Henchman2-removebg-preview_36
+  - first:
+      213: -5058652969235015364
+    second: Henchman2-removebg-preview_37
+  - first:
+      213: 3724795395030071218
+    second: Henchman2-removebg-preview_38
+  - first:
+      213: 7482765316227307289
+    second: Henchman2-removebg-preview_39
+  - first:
+      213: 169844984074212245
+    second: Henchman2-removebg-preview_40
+  - first:
+      213: 1326038082761032595
+    second: Henchman2-removebg-preview_41
+  - first:
+      213: -4785735484549536165
+    second: Henchman2-removebg-preview_42
+  - first:
+      213: -8492129011272978079
+    second: Henchman2-removebg-preview_43
+  - first:
+      213: 8243451289771547546
+    second: Henchman2-removebg-preview_44
+  - first:
+      213: 8040360176718123846
+    second: Henchman2-removebg-preview_45
+  - first:
+      213: 7913955699983129051
+    second: Henchman2-removebg-preview_46
+  - first:
+      213: 8830234400207126678
+    second: Henchman2-removebg-preview_47
+  - first:
+      213: -989284332326116983
+    second: Henchman2-removebg-preview_48
+  - first:
+      213: -2214209159534993483
+    second: Henchman2-removebg-preview_49
+  - first:
+      213: -1400019414571123771
+    second: Henchman2-removebg-preview_50
+  - first:
+      213: -135488136664285533
+    second: Henchman2-removebg-preview_51
+  - first:
+      213: 4432872750728002435
+    second: Henchman2-removebg-preview_52
+  - first:
+      213: -6006451753892061514
+    second: Henchman2-removebg-preview_53
+  - first:
+      213: 6396254328945448701
+    second: Henchman2-removebg-preview_54
+  - first:
+      213: 6458199562579222998
+    second: Henchman2-removebg-preview_55
+  - first:
+      213: -5610856561138884123
+    second: Henchman2-removebg-preview_56
+  - first:
+      213: -1476201066764073215
+    second: Henchman2-removebg-preview_57
+  - first:
+      213: -1725306188670394753
+    second: Henchman2-removebg-preview_58
+  - first:
+      213: 6284232923879680752
+    second: Henchman2-removebg-preview_59
+  - first:
+      213: 1384998638211152737
+    second: Henchman2-removebg-preview_60
+  - first:
+      213: -3032781899426844931
+    second: Henchman2-removebg-preview_61
+  - first:
+      213: -6612449158844050630
+    second: Henchman2-removebg-preview_62
+  - first:
+      213: -7922862153494086017
+    second: Henchman2-removebg-preview_63
+  - first:
+      213: -3555631655865353778
+    second: Henchman2-removebg-preview_64
+  - first:
+      213: -2681970722737864523
+    second: Henchman2-removebg-preview_65
+  - first:
+      213: 3666007710370072158
+    second: Henchman2-removebg-preview_66
+  - first:
+      213: -3370829953706791899
+    second: Henchman2-removebg-preview_67
+  - first:
+      213: 7534383102644733946
+    second: Henchman2-removebg-preview_68
+  - first:
+      213: 893463547348360612
+    second: Henchman2-removebg-preview_69
+  - first:
+      213: 8296271741146267852
+    second: Henchman2-removebg-preview_70
+  - first:
+      213: -8774203620846712397
+    second: Henchman2-removebg-preview_71
+  - first:
+      213: -4771239897691351727
+    second: Henchman2-removebg-preview_72
+  - first:
+      213: -1108839749215599670
+    second: Henchman2-removebg-preview_73
+  - first:
+      213: 3313461268244282409
+    second: Henchman2-removebg-preview_74
+  - first:
+      213: 3846546426921020104
+    second: Henchman2-removebg-preview_75
+  - first:
+      213: 5817274819639006829
+    second: Henchman2-removebg-preview_76
+  - first:
+      213: 166950511908628320
+    second: Henchman2-removebg-preview_77
+  - first:
+      213: 8056371440656727606
+    second: Henchman2-removebg-preview_78
+  - first:
+      213: -5813108348621458959
+    second: Henchman2-removebg-preview_79
+  - first:
+      213: -7055140600508758051
+    second: Henchman2-removebg-preview_80
+  - first:
+      213: -2248590813055105318
+    second: Henchman2-removebg-preview_81
+  - first:
+      213: -7277808598536920883
+    second: Henchman2-removebg-preview_82
+  - first:
+      213: -7200700287866070791
+    second: Henchman2-removebg-preview_83
+  - first:
+      213: 3769298421753282063
+    second: Henchman2-removebg-preview_84
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 609
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b4b6eaf7a2d5130800000000000000
+      internalID: 3557046008568040195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 608
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb039dab5ae2ca0800000000000000
+      internalID: -6039707828330905691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 608
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715a51c8f5fa3f90800000000000000
+      internalID: -6972990624285175427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 608
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be35d3570b2a6e120800000000000000
+      internalID: 2442818726659970027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 609
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e858e1d5ad54c1000800000000000000
+      internalID: 7958103515366798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 609
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84231266a8f0486a0800000000000000
+      internalID: -6448011679394352568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 609
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36909486cd0357c40800000000000000
+      internalID: 5509363442358225251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 609
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efae1fb02efe5f20800000000000000
+      internalID: 3413444984192282601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 623
+        width: 71
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2340312e3cedb390800000000000000
+      internalID: -7800819227946892502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 559
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad7d100d3520200800000000000000
+      internalID: 144770290878503621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 599
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb860c243494d5e70800000000000000
+      internalID: 9105514574844553407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 556
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0b9dfb61358e120800000000000000
+      internalID: 2443294155021594815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 556
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a72db335fa9990800000000000000
+      internalID: -7378315436927506454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 559
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a48f15d31ff3860800000000000000
+      internalID: 7511987949147802266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 558
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c4b202e7f768be0800000000000000
+      internalID: -1475351648234943379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 558
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df153ee881e5bf750800000000000000
+      internalID: 6339764360023593469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 558
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e807af0ecf6b19a0800000000000000
+      internalID: -6261287926111991581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 558
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861dc3b918cf7fce0800000000000000
+      internalID: -1371349927925591704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 558
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a51cad113aab760800000000000000
+      internalID: 7474465828654635654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 521
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb7915d235df2050800000000000000
+      internalID: 5778071261239933891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 548
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26021cf45c0804230800000000000000
+      internalID: 3621035685340848226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 502
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df838798d6db7de90800000000000000
+      internalID: -7000918817568704259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 503
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd30a0080d72fb60800000000000000
+      internalID: 7778416979745979836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 503
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b11051a03aa91ab0800000000000000
+      internalID: -5036807582395657806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 503
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393f76d4cb9381bf0800000000000000
+      internalID: -353469089833290861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 503
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c75dcd49867d6830800000000000000
+      internalID: 4066036370673326018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 500
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20055b3a4743d0450800000000000000
+      internalID: 6056554749450604546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 500
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a082410b144f6aab0800000000000000
+      internalID: -4997038173556824054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 459
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a103bcdc1535ff0800000000000000
+      internalID: -48605226651870569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 457
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3e419d637f5a260800000000000000
+      internalID: 7108359401816515509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 457
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00769c97c706eb580800000000000000
+      internalID: -8809497733354658048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 452
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb27a0f05f923100800000000000000
+      internalID: 86306512857148362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 449
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79273d61344c00f50800000000000000
+      internalID: 6845687226027963031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 459
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac1243fedd83c470800000000000000
+      internalID: 8413724517561670822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 459
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067588126cf69fdc0800000000000000
+      internalID: -3604727129976580256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 460
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c31e7663c58d53e0800000000000000
+      internalID: -2063345979981163576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 416
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bfc648bea78dfb0800000000000000
+      internalID: -4622809865538176122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 416
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3995c62ded0cc9b0800000000000000
+      internalID: -5058652969235015364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 416
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b737cd4da121b330800000000000000
+      internalID: 3724795395030071218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 416
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9179753e86f18d760800000000000000
+      internalID: 7482765316227307289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 416
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59310a6fc196b5200800000000000000
+      internalID: 169844984074212245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 416
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3938c915c98076210800000000000000
+      internalID: 1326038082761032595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 417
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b566176cee6a59db0800000000000000
+      internalID: -4785735484549536165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 404
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161f84058a5e52a80800000000000000
+      internalID: -8492129011272978079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 366
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b911ab54f966270800000000000000
+      internalID: 8243451289771547546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 366
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6431b772bf8159f60800000000000000
+      internalID: 8040360176718123846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 366
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd91ca977c404dd60800000000000000
+      internalID: 7913955699983129051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 366
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690c7c3076b4b8a70800000000000000
+      internalID: 8830234400207126678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 366
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981a7d5242b5542f0800000000000000
+      internalID: -989284332326116983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 370
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf1083308c8541e0800000000000000
+      internalID: -2214209159534993483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 347
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb76d392c1229ce0800000000000000
+      internalID: -1400019414571123771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 360
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae78dee146ae1ef0800000000000000
+      internalID: -135488136664285533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 367
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bb6a9c74ab48d30800000000000000
+      internalID: 4432872750728002435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beddb014fbc4aca0800000000000000
+      internalID: -6006451753892061514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 317
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df619d16c6f04c850800000000000000
+      internalID: 6396254328945448701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 327
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d12e10094220a950800000000000000
+      internalID: 6458199562579222998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 323
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1a5ab6fab3222b0800000000000000
+      internalID: -5610856561138884123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 316
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107897673fa738be0800000000000000
+      internalID: -1476201066764073215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 316
+        width: 88
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9487992b7e08e0800000000000000
+      internalID: -1725306188670394753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 226
+        width: 25
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faa9a98c84163750800000000000000
+      internalID: 6284232923879680752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 313
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bb9f46ce0883310800000000000000
+      internalID: 1384998638211152737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 266
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfead6b4ee469e5d0800000000000000
+      internalID: -3032781899426844931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 265
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3315c7368cdb34a0800000000000000
+      internalID: -6612449158844050630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 264
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e399839d65c0290800000000000000
+      internalID: -7922862153494086017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 253
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f208f8dbd7aec0800000000000000
+      internalID: -3555631655865353778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 253
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0463d56d9b7cad0800000000000000
+      internalID: -2681970722737864523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 226
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e568378d69640e230800000000000000
+      internalID: 3666007710370072158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 195
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c6f0b34086831d0800000000000000
+      internalID: -3370829953706791899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 182
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af748d253818f8860800000000000000
+      internalID: 7534383102644733946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 193
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad957fcc58366c00800000000000000
+      internalID: 893463547348360612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 191
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0822b6137422370800000000000000
+      internalID: 8296271741146267852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 142
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94c786b44cb3680800000000000000
+      internalID: -8774203620846712397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1559fe7979629cdb0800000000000000
+      internalID: -4771239897691351727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3cb2b7f1c9c90f0800000000000000
+      internalID: -1108839749215599670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 160
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c37bec777cbfd20800000000000000
+      internalID: 3313461268244282409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 91
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caecac689da16530800000000000000
+      internalID: 3846546426921020104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 91
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66586190ac1bb050800000000000000
+      internalID: 5817274819639006829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 90
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06722652b90215200800000000000000
+      internalID: 166950511908628320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 90
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e32fa042bfdcf60800000000000000
+      internalID: 8056371440656727606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f17f8f81c0b35fa0800000000000000
+      internalID: -5813108348621458959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 47
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd74d3ae00b171e90800000000000000
+      internalID: -7055140600508758051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 46
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6c4aea1966bc0e0800000000000000
+      internalID: -2248590813055105318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 45
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc06cec93a7000b90800000000000000
+      internalID: -7277808598536920883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 46
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f890b73d39f11c90800000000000000
+      internalID: -7200700287866070791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Henchman2-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 7
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e7b09a1fc3f4430800000000000000
+      internalID: 3769298421753282063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
