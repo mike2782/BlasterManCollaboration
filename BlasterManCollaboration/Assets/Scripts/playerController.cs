@@ -53,6 +53,10 @@ public class playerController : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         bool shootInput = Input.GetKeyDown("space");
+        bool blastInput = Input.GetKeyDown("E");
+        bool shieldInput = Input.GetKeyDown("Q");
+        
+
 
         //Calculate movement vector
         Vector2 moveVector;
