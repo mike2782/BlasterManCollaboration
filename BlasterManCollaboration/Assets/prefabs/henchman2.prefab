@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4692260184089909922}
   - component: {fileID: -5613778527279971771}
   m_Layer: 0
-  m_Name: Henchman 2
+  m_Name: henchman2
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
