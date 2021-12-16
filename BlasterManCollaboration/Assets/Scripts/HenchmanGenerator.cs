@@ -26,7 +26,7 @@ public class HenchmanGenerator : MonoBehaviour
     {
         countdown -= Time.deltaTime;
 
-        if (countdown <= 0.0f)
+        if (countdown <= -3.0f)
         {
             generateHenchman();
             countdown = henchmanSpawnTime;
@@ -37,13 +37,13 @@ public class HenchmanGenerator : MonoBehaviour
     {
         int typeIndex = rndGen.Next(2);
 
-        GameObject henchman = Instantiate(henchmanTypes[typeIndex], new Vector2(0.20f, (float) (rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henchman2 = Instantiate(henchmanTypes[typeIndex], new Vector2(2.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henhcman3 = Instantiate(henchmanTypes[typeIndex], new Vector2(5.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henhcman4 = Instantiate(henchmanTypes[typeIndex], new Vector2(8.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henchman5 = Instantiate(henchmanTypes[typeIndex], new Vector2(-2.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henhcman6 = Instantiate(henchmanTypes[typeIndex], new Vector2(-5.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
-        GameObject henhcman7 = Instantiate(henchmanTypes[typeIndex], new Vector2(-8.20f, (float)(rndGen.Next(10) - 5)), Quaternion.identity);
+        GameObject henchman = Instantiate(henchmanTypes[typeIndex], new Vector2(0.20f, (float) (rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henchman2 = Instantiate(henchmanTypes[typeIndex], new Vector2(2.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henhcman3 = Instantiate(henchmanTypes[typeIndex], new Vector2(5.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henhcman4 = Instantiate(henchmanTypes[typeIndex], new Vector2(8.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henchman5 = Instantiate(henchmanTypes[typeIndex], new Vector2(-2.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henhcman6 = Instantiate(henchmanTypes[typeIndex], new Vector2(-5.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
+        GameObject henchman7 = Instantiate(henchmanTypes[typeIndex], new Vector2(-8.20f, (float)(rndGen.Next(10) - -10)), Quaternion.identity);
     }
 }
 
