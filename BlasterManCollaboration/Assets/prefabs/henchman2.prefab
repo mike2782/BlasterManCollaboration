@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4692260184089909923}
   - component: {fileID: 4692260184089909922}
   - component: {fileID: -5613778527279971771}
+  - component: {fileID: -744934980565207251}
   m_Layer: 0
   m_Name: henchman2
   m_TagString: MainCamera
@@ -145,3 +146,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!114 &-744934980565207251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692260184089909925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc28e688f6f58b3468e364a950015355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocketPrefab: {fileID: 2396565684994471864, guid: 088041461c0fa6a49bea481e9380abf9, type: 3}
+  fireDelayTime: 1

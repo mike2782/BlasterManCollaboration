@@ -16,14 +16,12 @@ public class playerController : MonoBehaviour
     [SerializeField]
     GameObject laserEyes;
 
-    [SerializeField]
     float egoMeter = 100;
-
-    [SerializeField]
     float energyMeter = 100;
+    float chipsOnShoulder = 3;
 
     [SerializeField]
-    float chipsOnShoulder;
+    private GameObject laserEyeSprite = null;
 
     // Start is called before the first frame update
 
@@ -38,7 +36,7 @@ public class playerController : MonoBehaviour
     void Start()
     {
         
-        
+
     }
 
     // Update is called once per frame
@@ -52,7 +50,11 @@ public class playerController : MonoBehaviour
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        bool shootInput = Input.GetKeyDown("space");
+        //bool shootInput = Input.GetKeyDown("space");
+        bool blastInput = Input.GetKeyDown("e");
+        bool shieldInput = Input.GetKeyDown("q");
+        
+
 
         //Calculate movement vector
         Vector2 moveVector;
@@ -67,17 +69,24 @@ public class playerController : MonoBehaviour
 
         //Apply shooting
 
-        while (shootInput)
+        /*if (shootInput == true)
         {
-            //laserEyes.renderer.enabled = false;
-        }
+            Debug.Log("shoot!");
+            
+            
+            /*GameObject bullet = Instantiate(laserEyeSprite, transform.position, transform.rotation);
+        } else
+        {
+            Destroy(this.laserEyeSprite);
+        } */
+        
 
         if(egoMeter <= 0)
         {
             Debug.Log("Player returns to beginning of level and loses 1 chip on shoulder");
             chipsOnShoulder -= 0;
         }
-
+        
         if(chipsOnShoulder <= 0)
         {
             Debug.Log("Game Over");
