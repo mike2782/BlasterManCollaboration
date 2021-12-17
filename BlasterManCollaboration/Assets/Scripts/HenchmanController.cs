@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class HenchmanController : MonoBehaviour
 {
+    
+    [SerializeField]
+    private int health = 1;
+
     [SerializeField] private float moveSpeed = 1.0f;
 
-    int health = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +40,7 @@ private void OnTriggerEnter2D(Collider2D collision)
 
         if ( health <= 0)
         {
-            Destroy(this);
+            Object.DestroyImmediate(this);
         }
 
 }

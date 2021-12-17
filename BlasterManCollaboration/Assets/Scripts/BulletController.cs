@@ -43,7 +43,7 @@ public class BulletController : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(this);
+            Object.DestroyImmediate(this);
         }
     }
 }

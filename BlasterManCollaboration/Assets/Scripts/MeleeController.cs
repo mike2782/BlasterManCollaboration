@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class MeleeController : MonoBehaviour
 {
-   int health = 1;
+    [SerializeField]
+    private int health = 1;
+
     [SerializeField] private float moveSpeed = 3.0f;
 
+    [SerializeField]
+    private float damage = 4.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -14,9 +18,7 @@ public class MeleeController : MonoBehaviour
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        int health = 2;
-
+    { 
 
         if (collision.gameObject.tag == "playerLaser")
         {
@@ -36,9 +38,13 @@ public class MeleeController : MonoBehaviour
     {
         transform.Translate(Vector2.down * moveSpeed * Time.deltaTime, Space.World);
 
+
         if (health <= 0)
         {
-            Destroy(this);
+                Object.DestroyImmediate(this);
+            }
+
+
         }
     }
-}
+
