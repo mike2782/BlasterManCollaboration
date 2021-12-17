@@ -5,15 +5,12 @@ using UnityEngine;
 public class playerShooting : MonoBehaviour
 {
     [SerializeField]
-    private GameObject bulletPrefab = null;
+    private GameObject laser = null;
     
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown("space"))
-        {
-            GameObject bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
-
-        }
+    void Start()
+    {      
+           // GameObject laser = Instantiate(laser, transform.position, transform.rotation);
+                
     }
 }

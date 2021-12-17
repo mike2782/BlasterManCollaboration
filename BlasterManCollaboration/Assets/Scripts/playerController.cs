@@ -8,7 +8,7 @@ public class playerController : MonoBehaviour
     float speed;
 
     [SerializeField]
-    float shootSpeed;
+    float shootTimer = 0.5f;
 
     [SerializeField]
     GameObject blastSkillObjects;
@@ -16,12 +16,11 @@ public class playerController : MonoBehaviour
     [SerializeField]
     GameObject laserEyes;
 
+    GameObject currentLaserEyes;
+
     float egoMeter = 100;
     float energyMeter = 100;
-    float chipsOnShoulder = 3;
-
-    [SerializeField]
-    private GameObject laserEyeSprite = null;
+    float chipsOnShoulder = 3;   
 
     // Start is called before the first frame update
 
@@ -30,7 +29,13 @@ public class playerController : MonoBehaviour
         if (collision.gameObject.tag == "EnemyBullet")
         {
             egoMeter -= 10;           
-            Debug.Log(egoMeter);
+            Debug.Log("10 damage from bullet");
+        }
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            egoMeter -= 20;
+            Debug.Log("20 damage from bullet");
         }
     }
     void Start()
@@ -42,19 +47,28 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space") == true)
+        shootTimer -= Time.deltaTime;
+        
+
+        if(Input.GetKeyDown("space") == true )
         {
-            Debug.Log("space pressed!");
+            if (shootTimer <= 0)
+            {
+                currentLaserEyes = Instantiate(laserEyes, transform.position, transform.rotation);
+                currentLaserEyes.transform.parent = transform;
+
+                shootTimer = 0.5f;
+            }
         }
         if(chipsOnShoulder <= 0)
         {
             Destroy(gameObject);
             Debug.Log("Game over!");
         }
+       
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        //bool shootInput = Input.GetKeyDown("space");
         bool blastInput = Input.GetKeyDown("e");
         bool shieldInput = Input.GetKeyDown("q");
         
@@ -66,25 +80,11 @@ public class playerController : MonoBehaviour
         Vector2 horizontal = Vector2.right * horizontalInput;
         Vector2 vertical = Vector2.up * verticalInput;
         moveVector = (horizontal + vertical) * speed * Time.deltaTime;
+        //moveVector = moveVector.normalized * Time.deltaTime;
 
         //Apply movement
-        
         transform.Translate(new Vector3(moveVector.x, moveVector.y, 0.0f));
-
-        //Apply shooting
-
-        /*if (shootInput == true)
-        {
-            Debug.Log("shoot!");
-            
-            
-            /*GameObject bullet = Instantiate(laserEyeSprite, transform.position, transform.rotation);
-        } else
-        {
-            Destroy(this.laserEyeSprite);
-        } */
         
-
         if(egoMeter <= 0)
         {
             Debug.Log("Player returns to beginning of level and loses 1 chip on shoulder");
