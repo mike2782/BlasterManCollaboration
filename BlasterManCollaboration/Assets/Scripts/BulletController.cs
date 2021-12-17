@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
+   
 
     [SerializeField]
-    private float speed = 1.0f;
+    private float speed = 5.0f;
 
     [SerializeField]
     private float damage = 4.0f;
@@ -21,7 +22,7 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         float moveX = speed * Time.deltaTime;
-        transform.Translate(new Vector3(0.0f, moveX, 0.0f));
+        transform.Translate(new Vector3(0.0f, -moveX, 0.0f));
     }
 }
 

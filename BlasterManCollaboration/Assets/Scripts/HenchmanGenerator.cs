@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class HenchmanGenerator : MonoBehaviour
 {
-    [SerializeField] private GameObject[] henchmanTypes = new GameObject[1] { null};
+    [SerializeField] private GameObject[] henchmanTypes = null;
 
     [SerializeField] private float henchmanSpawnTime = 1.0f;
     private float countdown = 0.0f;

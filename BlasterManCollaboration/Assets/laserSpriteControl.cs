@@ -20,7 +20,7 @@ public class laserSpriteControl : MonoBehaviour
 
     void Update()
     {
-        bool shootInput = Input.GetKeyDown("space");
+        bool shootInput = Input.GetKeyDown("space"); 
 
         if (shootInput == true && laser != null)
         {
@@ -29,7 +29,7 @@ public class laserSpriteControl : MonoBehaviour
         }
         else 
         { 
-            laserOff(laser);
+            //laserOff(laser);
         }
     }
 
