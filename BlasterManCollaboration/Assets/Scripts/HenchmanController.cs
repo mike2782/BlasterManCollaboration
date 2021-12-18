@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HenchmanController : MonoBehaviour
 {
-    
+
     [SerializeField]
     private int health = 1;
 
@@ -14,20 +14,20 @@ public class HenchmanController : MonoBehaviour
     void Start()
     {
     }
-private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
 
 
-            if (collision.gameObject.tag == "playerLaser")
-            {
-                health -= 1;
 
-                //what ever else the code needs to do
-            }
+        if (collision.gameObject.tag == "LaserEyes")
+        {
+            health -= 1;
 
-            if (collision.gameObject.tag == "Player")
-            {
+            //what ever else the code needs to do
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
             health -= 1;
         }
     }
@@ -35,16 +35,16 @@ private void OnTriggerEnter2D(Collider2D collision)
 
     // Update is called once per frame
     void Update()
-{
-    transform.Translate(Vector2.down * moveSpeed * Time.deltaTime, Space.World);
+    {
+        transform.Translate(Vector2.down * moveSpeed * Time.deltaTime, Space.World);
 
-        if ( health <= 0)
+        if (health <= 0)
         {
             Object.DestroyImmediate(this);
         }
 
-}
-       
-    
+    }
+
+
 }
 

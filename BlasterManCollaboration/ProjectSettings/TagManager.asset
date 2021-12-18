@@ -8,6 +8,7 @@ TagManager:
   - MeleeEnemy
   - EnemyBullet
   - laserEyes
+  - LaserEyes
   layers:
   - Default
   - TransparentFX
