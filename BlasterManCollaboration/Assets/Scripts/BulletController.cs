@@ -1,8 +1,10 @@
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HenchmanController : MonoBehaviour
+public class BulletController : MonoBehaviour
 {
 
     [SerializeField]
@@ -30,6 +32,12 @@ public class HenchmanController : MonoBehaviour
         {
             health -= 1;
         }
+
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 
@@ -37,14 +45,13 @@ public class HenchmanController : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector2.down * moveSpeed * Time.deltaTime, Space.World);
+    
 
-        if (health <= 0)
-        {
-            Object.DestroyImmediate(this);
-        }
+    
+    }
 
     }
 
 
-}
+
 

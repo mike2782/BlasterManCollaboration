@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HenchmanController : MonoBehaviour
+public class MeleeController : MonoBehaviour
 {
 
     [SerializeField]
@@ -14,10 +14,9 @@ public class HenchmanController : MonoBehaviour
     void Start()
     {
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-
 
         if (collision.gameObject.tag == "LaserEyes")
         {
@@ -26,12 +25,17 @@ public class HenchmanController : MonoBehaviour
             //what ever else the code needs to do
         }
 
-        if (collision.gameObject.tag == "Player")
-        {
-            health -= 1;
-        }
-    }
+if (collision.gameObject.tag == "Player")
+{
+    health -= 1;
+}
 
+
+if (health <= 0)
+{
+    Destroy(gameObject);
+}
+    }
 
     // Update is called once per frame
     void Update()
@@ -47,4 +51,7 @@ public class HenchmanController : MonoBehaviour
 
 
 }
+
+
+
 
