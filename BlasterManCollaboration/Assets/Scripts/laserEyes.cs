@@ -6,7 +6,7 @@ public class laserEyes : MonoBehaviour
 {
     //Set the speed of the line drawing movement
     [SerializeField]
-    private int speed = 100;
+    private int speed;
 
     //A timer to delete the line
     [SerializeField]

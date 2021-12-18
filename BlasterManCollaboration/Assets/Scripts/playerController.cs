@@ -16,6 +16,9 @@ public class playerController : MonoBehaviour
     [SerializeField]
     GameObject laserEyes;
 
+    [SerializeField]
+    GameObject invisibleBullet;
+
     GameObject currentLaserEyes;
 
     float egoMeter = 100;
@@ -47,26 +50,30 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //Starts a countdown until fire is enabled again
         shootTimer -= Time.deltaTime;
         
-
+        //If space is pressed, we creat a laserEyes object and set it to the parents position
         if(Input.GetKeyDown("space") == true )
         {
             if (shootTimer <= 0)
             {
                 currentLaserEyes = Instantiate(laserEyes, transform.position, transform.rotation);
                 currentLaserEyes.transform.parent = transform;
-
+                //Resets shoot timer each time fired
                 shootTimer = 0.5f;
             }
         }
+
+        //This is the lives of the player and will destroy the player object is hits 0 or below
         if(chipsOnShoulder <= 0)
         {
             Destroy(gameObject);
             Debug.Log("Game over!");
         }
        
-
+        //Control variables
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         bool blastInput = Input.GetKeyDown("e");
@@ -85,15 +92,16 @@ public class playerController : MonoBehaviour
         //Apply movement
         transform.Translate(new Vector3(moveVector.x, moveVector.y, 0.0f));
         
+
+        //This reduces the lives (chips) by 1 if the ego meter (health) reached 0 or less and also if chips reach 3, game over
         if(egoMeter <= 0)
         {
             Debug.Log("Player returns to beginning of level and loses 1 chip on shoulder");
-            chipsOnShoulder -= 0;
-        }
-        
-        if(chipsOnShoulder <= 0)
-        {
-            Debug.Log("Game Over");
-        }
+            chipsOnShoulder += 1;
+            if(chipsOnShoulder >= 3)
+            {
+                Debug.Log("Game Over");
+            }
+        }        
     }
 }

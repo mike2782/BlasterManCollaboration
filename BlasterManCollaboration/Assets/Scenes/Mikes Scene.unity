@@ -593,6 +593,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4450293168204216173, guid: 03b24471a883b114ba9475ae86fe5fa6, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4450293168204216173, guid: 03b24471a883b114ba9475ae86fe5fa6, type: 3}
+      propertyPath: invisibleBullet
+      value: 
+      objectReference: {fileID: 8003401387858905326, guid: e14771c71c2f1574d876f7d8444da7b1, type: 3}
     - target: {fileID: 4450293168204216174, guid: 03b24471a883b114ba9475ae86fe5fa6, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -863,7 +871,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701630835}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f26efb4556da0840b73822a62ceeede, type: 3}
   m_Name: 
