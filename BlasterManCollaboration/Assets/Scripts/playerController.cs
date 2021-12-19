@@ -5,9 +5,12 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public PlayerDamageController playerDamageController;
+    public blastBehaviour blastScript;
 
     bool justDodged = false;
     public bool shieldOn;
+    public bool blastActive = false;
+    public bool ultaBlastActive = false;
     float shieldTimer = 2.0f;
 
     [SerializeField]
@@ -23,7 +26,7 @@ public class playerController : MonoBehaviour
     float dodgeSpeed;
 
     [SerializeField]
-    GameObject blastSkillObjects;
+    GameObject blastSkillPrefab;
 
     [SerializeField]
     GameObject laserEyes;
@@ -38,8 +41,9 @@ public class playerController : MonoBehaviour
     GameObject currentLaserEyes;
     GameObject currentInvisibleBullet;
     GameObject currentShield;
+    GameObject currentBlastBall;
 
-    float energyMeter = 100;   
+    public float energyMeter = 100;   
  
     // Update is called once per frame
     void Update()
@@ -63,11 +67,7 @@ public class playerController : MonoBehaviour
                 //Resets shoot timer each time fired
                 shootTimer = 0.5f;
             }
-        }
-
-               
-        
-
+        }              
         
         //Shield mechanic. First checks if e is pressed and if the shield is already on, then checks energy is not less than 20
         if (Input.GetKeyDown("e") && shieldOn == false && energyMeter > 19)
@@ -91,7 +91,21 @@ public class playerController : MonoBehaviour
                 Destroy(currentShield);
                 shieldTimer = 2.0f;
             }
-        }     
+        }
+        
+        //Blast Mechanic inpupt
+        if(Input.GetKeyDown("q") == true && energyMeter > 50)
+        {
+            blastActive = true;
+        }
+        blastActive = false;
+        //UltraBlast mechanic input
+        if (Input.GetKeyDown("r"))
+        {
+            Debug.Log("r pressed");
+            ultaBlastActive = true;
+        }
+        ultaBlastActive = false;
         //Control variables
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");

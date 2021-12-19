@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8657624121192913220}
   - component: {fileID: 8335675019215351364}
   - component: {fileID: 8189305178479740121}
-  - component: {fileID: 468553385334570973}
   - component: {fileID: 3670636424599713851}
   m_Layer: 0
   m_Name: Henchman3(mikev2)
@@ -149,21 +148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   moveSpeed: 3
---- !u!114 &468553385334570973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8914646265596069572}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 477c6bf037b23c44281f52eb27fd3754, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  henchmanTypes:
-  - {fileID: 8914646265596069572}
-  henchmanSpawnTime: 1
+  egoDrop: {fileID: 6210616634631898681, guid: 68695af36d15978429ca9cb1495d7c51, type: 3}
+  energy: {fileID: 4983864787564561526, guid: 0776f89f901830c4283ba1b704ea331a, type: 3}
 --- !u!61 &3670636424599713851
 BoxCollider2D:
   m_ObjectHideFlags: 0

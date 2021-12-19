@@ -127,7 +127,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  moveSpeed: 1
+  moveSpeed: 2
+  egoDrop: {fileID: 6210616634631898681, guid: 68695af36d15978429ca9cb1495d7c51, type: 3}
+  energy: {fileID: 4983864787564561526, guid: 0776f89f901830c4283ba1b704ea331a, type: 3}
 --- !u!114 &4257706341253368232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,8 +144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletTypes:
   - {fileID: 2396565684994471864, guid: 088041461c0fa6a49bea481e9380abf9, type: 3}
-  bulletSpawnTime: 1
-  speed: 2
+  bulletSpawnTime: 0.5
+  speed: 3
   damage: 4
 --- !u!61 &4693646871418058603
 BoxCollider2D:
