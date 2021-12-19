@@ -128,6 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   moveSpeed: 2
+  egoDrop: {fileID: 6210616634631898681, guid: 68695af36d15978429ca9cb1495d7c51, type: 3}
+  energy: {fileID: 4983864787564561526, guid: 0776f89f901830c4283ba1b704ea331a, type: 3}
 --- !u!114 &4257706341253368232
 MonoBehaviour:
   m_ObjectHideFlags: 0
