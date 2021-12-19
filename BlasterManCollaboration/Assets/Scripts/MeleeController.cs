@@ -10,6 +10,10 @@ public class MeleeController : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 1.0f;
 
+    public GameObject egoDrop;
+    public GameObject energy;
+    public float randomDrop;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +43,15 @@ public class MeleeController : MonoBehaviour
 
         if (health <= 0)
         {
+            randomDrop = Random.Range(0, 2);
+            if (randomDrop < 1)
+            {
+                Instantiate(egoDrop, transform.position, transform.rotation);
+            }
+            else
+            {
+                Instantiate(energy, transform.position, transform.rotation);
+            }
             Destroy(this.gameObject);
         }
 

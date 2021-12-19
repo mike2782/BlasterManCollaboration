@@ -12,6 +12,8 @@ public class BulletController : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 1.0f;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,8 @@ public class BulletController : MonoBehaviour
 
         if (health <= 0)
         {
+
+            
             Destroy(gameObject);
         }
     }
