@@ -1056,3 +1056,4 @@ Received Import Request.
 Start importing Assets/Jay/EnergyBarSlider.cs using Guid(f669172856fa70949a238005019fe492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d416683e6286bd8080ed9fefba1417') in 0.082557 seconds 
   Import took 0.106139 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

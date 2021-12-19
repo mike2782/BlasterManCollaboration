@@ -9,8 +9,6 @@ public class Chipimage : MonoBehaviour
     [SerializeField]
     public PlayerDamageController player;
 
-    public string fontName;
-
     // Start is called before the first frame update
     void Start()
     {
