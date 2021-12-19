@@ -312,3 +312,4 @@ Received Import Request.
 Start importing Assets/Energy.prefab using Guid(20ee5dcb9e0d471409670aeea34e9ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d24d389308980c8a0ea218c91f5196') in 0.140597 seconds 
   Import took 0.153156 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
