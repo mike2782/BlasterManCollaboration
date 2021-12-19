@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2772421053180199337}
   - component: {fileID: 7873779999312421869}
   - component: {fileID: 4860287965847849139}
+  - component: {fileID: -9072507379758743805}
   m_Layer: 0
   m_Name: Energy
-  m_TagString: Untagged
+  m_TagString: Energy Boost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 638671927
-  m_SortingLayer: 1
+  m_SortingLayerID: -848711335
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.9150943, g: 0.8600457, b: 0, a: 1}
@@ -95,3 +96,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08903c5429a34d8469ae941ed60fd36b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &-9072507379758743805
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4983864787564561526}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.49999997

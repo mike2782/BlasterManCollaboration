@@ -46,6 +46,7 @@ public class HenchmanController : MonoBehaviour
         if (health <= 0)
         {
             randomDrop = Random.Range(0, 2);
+            Debug.Log(randomDrop);
             if (randomDrop < 1)
             {
                 Instantiate(egoDrop, transform.position, transform.rotation);

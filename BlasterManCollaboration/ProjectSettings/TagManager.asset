@@ -13,6 +13,8 @@ TagManager:
   - PlayerDamage
   - energyDrop
   - egoDrop
+  - Ego Boost
+  - Energy Boost
   layers:
   - Default
   - TransparentFX
