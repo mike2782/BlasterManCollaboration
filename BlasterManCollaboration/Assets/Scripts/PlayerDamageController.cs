@@ -17,15 +17,28 @@ public class PlayerDamageController : MonoBehaviour
     {
         if (collision.gameObject.tag == "EnemyBullet" && player.shieldOn == false)
         {
-            egoMeter -= 10;
+            egoMeter -= 20;
             Debug.Log("10 damage from bullet. Ego remaining :" + egoMeter);
         }
 
         if (collision.gameObject.tag == "EnemyDamage" && player.shieldOn == false)
         {
-            egoMeter -= 5;
+            egoMeter -= 10;
             Debug.Log("10 damage from enemy collision. Ego remaining :" + egoMeter);
         }
+
+        if (collision.gameObject.tag == "Ego Boost" && player.shieldOn == false)
+        {
+            egoMeter += 10;
+            Debug.Log("10 ego recovered. Ego remaining :" + egoMeter);
+        }
+
+        if (collision.gameObject.tag == "Energy Boost" && player.shieldOn == false)
+        {
+            player.energyMeter += 10;
+            Debug.Log("10 energy recovered. Ego remaining :" + egoMeter);
+        }
+
     }
     // Start is called before the first frame update
     void Start()
