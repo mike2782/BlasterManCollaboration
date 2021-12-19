@@ -1059,6 +1059,7 @@ GameObject:
   - component: {fileID: 408831448}
   - component: {fileID: 408831450}
   - component: {fileID: 408831449}
+  - component: {fileID: 408831451}
   m_Layer: 0
   m_Name: Energy Bar
   m_TagString: Untagged
@@ -1094,7 +1095,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408831447}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ba2d38beeaa27a40b33273115edafd5, type: 3}
   m_Name: 
@@ -1150,6 +1151,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &408831451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408831447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f669172856fa70949a238005019fe492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &477780232
 GameObject:
   m_ObjectHideFlags: 0
