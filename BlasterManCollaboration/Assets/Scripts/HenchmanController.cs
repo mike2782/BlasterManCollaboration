@@ -40,7 +40,7 @@ public class HenchmanController : MonoBehaviour
 
         if (health <= 0)
         {
-            Object.DestroyImmediate(this);
+            Destroy(this.gameObject);
         }
 
     }

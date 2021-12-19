@@ -7,6 +7,8 @@ public class InvisibleBullet : MonoBehaviour
     [SerializeField]
     private float moveSpeed;
 
+    private float destroyTimer = 1.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,12 @@ public class InvisibleBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * moveSpeed * Time.deltaTime, Space.World);
+        transform.Translate(Vector2.up * moveSpeed * Time.deltaTime, Space.World);
+        destroyTimer -= Time.deltaTime;
+
+        if(destroyTimer <= 0.1)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
