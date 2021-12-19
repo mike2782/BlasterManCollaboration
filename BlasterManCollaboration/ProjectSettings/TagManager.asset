@@ -11,6 +11,8 @@ TagManager:
   - LaserEyes
   - EnemyDamage
   - PlayerDamage
+  - energyDrop
+  - egoDrop
   layers:
   - Default
   - TransparentFX

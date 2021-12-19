@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4398763439306657581}
   - component: {fileID: 607099126482057802}
   - component: {fileID: 354363381276873446}
+  - component: {fileID: 8998348946863462545}
   m_Layer: 0
   m_Name: Ego Boost
   m_TagString: Untagged
@@ -97,3 +98,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerDamageController: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &8998348946863462545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210616634631898681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfbb026c5d9aa044be889945b20b6e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
