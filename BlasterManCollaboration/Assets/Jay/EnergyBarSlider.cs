@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnergyBarSlider : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+{ 
+    public Slider slider;
+    [SerializeField]
+    public playerController player;
     void Update()
-    {
+
+{
+         //slider.maxValue = player.egoMeter;
+         slider.value = player.energyMeter;
+         //slider.value = health;
+}
         
     }
-}
