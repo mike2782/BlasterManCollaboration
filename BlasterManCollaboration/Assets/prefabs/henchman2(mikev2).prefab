@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  moveSpeed: 1
+  moveSpeed: 2
 --- !u!114 &4257706341253368232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,8 +142,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletTypes:
   - {fileID: 2396565684994471864, guid: 088041461c0fa6a49bea481e9380abf9, type: 3}
-  bulletSpawnTime: 1
-  speed: 2
+  bulletSpawnTime: 0.5
+  speed: 3
   damage: 4
 --- !u!61 &4693646871418058603
 BoxCollider2D:
