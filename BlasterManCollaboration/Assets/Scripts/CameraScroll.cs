@@ -14,7 +14,7 @@ public class CameraScroll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3(0.0f, cameraSpeed, 0.0f);
+        Vector3 movement = new Vector3(0.0f, -cameraSpeed, 0.0f);
 
         movement *= Time.deltaTime;
 
