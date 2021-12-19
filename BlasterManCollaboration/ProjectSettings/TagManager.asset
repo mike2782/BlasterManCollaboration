@@ -9,6 +9,8 @@ TagManager:
   - EnemyBullet
   - laserEyes
   - LaserEyes
+  - EnemyDamage
+  - PlayerDamage
   layers:
   - Default
   - TransparentFX

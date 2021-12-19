@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
+    public PlayerDamageController playerDamageController;
+
+    bool justDodged = false;
+    public bool shieldOn;
+    float shieldTimer = 2.0f;
+
     [SerializeField]
     float speed;
 
     [SerializeField]
     float shootTimer = 0.5f;
+
+    [SerializeField]
+    float dodgeTimer = 2.0f;
+
+    [SerializeField]
+    float dodgeSpeed;
 
     [SerializeField]
     GameObject blastSkillObjects;
@@ -19,34 +31,16 @@ public class playerController : MonoBehaviour
     [SerializeField]
     GameObject invisibleBullet;
 
+    [SerializeField]
+    GameObject shieldPrefab;
+
+    //Variables for the instantiations into the scene
     GameObject currentLaserEyes;
+    GameObject currentInvisibleBullet;
+    GameObject currentShield;
 
-    float egoMeter = 100;
-    float energyMeter = 100;
-    float chipsOnShoulder = 3;   
-
-    // Start is called before the first frame update
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "EnemyBullet")
-        {
-            egoMeter -= 10;           
-            Debug.Log("10 damage from bullet");
-        }
-
-        if (collision.gameObject.tag == "Enemy")
-        {
-            egoMeter -= 20;
-            Debug.Log("20 damage from bullet");
-        }
-    }
-    void Start()
-    {
-        
-
-    }
-
+    float energyMeter = 100;   
+ 
     // Update is called once per frame
     void Update()
     {
@@ -61,47 +55,97 @@ public class playerController : MonoBehaviour
             {
                 currentLaserEyes = Instantiate(laserEyes, transform.position, transform.rotation);
                 currentLaserEyes.transform.parent = transform;
+
+                //This was a "hack" to make the laser eye skill work quickly. A Raycast is the preferred method
+                //This just instantiates and invisible bullet which performs the collisions
+                currentInvisibleBullet = Instantiate(invisibleBullet, transform.position, transform.rotation);
+                currentInvisibleBullet.transform.parent = transform;
                 //Resets shoot timer each time fired
                 shootTimer = 0.5f;
             }
         }
 
-        //This is the lives of the player and will destroy the player object is hits 0 or below
-        if(chipsOnShoulder <= 0)
+               
+        
+
+        
+        //Shield mechanic. First checks if e is pressed and if the shield is already on, then checks energy is not less than 20
+        if (Input.GetKeyDown("e") && shieldOn == false && energyMeter > 19)
         {
-            Destroy(gameObject);
-            Debug.Log("Game over!");
+            //Takes 20 energy away then turn on the bool for showing the shield is in use
+            energyMeter -= 20;
+            Debug.Log(energyMeter);
+            shieldOn = true;
+            //then instantiates the shield and sets the position to the player object (parent)
+            currentShield = Instantiate(shieldPrefab, transform.position, transform.rotation);
+            currentShield.transform.parent = transform;
         }
-       
+
+        //When shield is on, we reduce the timer and then turn off shield bool and detroy the prefab object. Resets timer
+        if (shieldOn == true)
+        {
+            shieldTimer -= Time.deltaTime;
+            if(shieldTimer <= 0.1)
+            {
+                shieldOn = false;
+                Destroy(currentShield);
+                shieldTimer = 2.0f;
+            }
+        }     
         //Control variables
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-        bool blastInput = Input.GetKeyDown("e");
-        bool shieldInput = Input.GetKeyDown("q");
-        
-
 
         //Calculate movement vector
-        Vector2 moveVector;
+        // Vector2 moveVector;
 
-        Vector2 horizontal = Vector2.right * horizontalInput;
-        Vector2 vertical = Vector2.up * verticalInput;
-        moveVector = (horizontal + vertical) * speed * Time.deltaTime;
-        //moveVector = moveVector.normalized * Time.deltaTime;
+        Vector3 movement = new Vector3(horizontalInput, verticalInput, 0.0f);
+        movement.Normalize();
+        movement = movement * speed * Time.deltaTime;
 
-        //Apply movement
-        transform.Translate(new Vector3(moveVector.x, moveVector.y, 0.0f));
         
 
-        //This reduces the lives (chips) by 1 if the ego meter (health) reached 0 or less and also if chips reach 3, game over
-        if(egoMeter <= 0)
+        /* Vector2 horizontal = Vector2.right * horizontalInput;
+        Vector2 vertical = Vector2.up * verticalInput;
+         moveVector = (horizontal + vertical) * speed * Time.deltaTime;
+        moveVector.Normalize(); */
+
+        //Apply movement
+        //transform.Translate(new Vector3(moveVector.x, moveVector.y, 0.0f));
+        transform.Translate(movement);
+
+        //Dodge mechanic
+        if (Input.GetKeyDown("[8]") && dodgeTimer >= 1.9f)
         {
-            Debug.Log("Player returns to beginning of level and loses 1 chip on shoulder");
-            chipsOnShoulder += 1;
-            if(chipsOnShoulder >= 3)
-            {
-                Debug.Log("Game Over");
-            }
-        }        
+            justDodged = true;
+            transform.Translate(new Vector3(0.0f,dodgeSpeed, 0.0f));
+        }
+        
+        if (Input.GetKeyDown("[6]") && dodgeTimer >= 1.9f)
+        {
+            justDodged = true;
+            transform.Translate(new Vector3(dodgeSpeed + 2, 0.0f, 0.0f));
+        }
+        if (Input.GetKeyDown("[4]") && dodgeTimer >= 1.9f)
+        {
+            justDodged = true;
+            transform.Translate(new Vector3(-dodgeSpeed - 2, 0.0f, 0.0f));
+        }
+        if (Input.GetKeyDown("[2]") && dodgeTimer >= 1.9f)
+        {
+            justDodged = true;
+            transform.Translate(new Vector3(0.0f, -dodgeSpeed, 0.0f));
+        }
+
+        if (justDodged == true)
+        {
+            dodgeTimer -= Time.deltaTime;                     
+        } 
+
+        if (dodgeTimer <= 0.1)
+        {
+            justDodged = false;
+            dodgeTimer = 2.0f;
+        }
     }
 }
