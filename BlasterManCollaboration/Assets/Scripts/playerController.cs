@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour
     bool justDodged = false;
     public bool shieldOn;
     public bool blastActive = false;
+    public bool ultaBlastActive = false;
     float shieldTimer = 2.0f;
 
     [SerializeField]
@@ -92,12 +93,19 @@ public class playerController : MonoBehaviour
             }
         }
         
-        //Blast Mechanic
+        //Blast Mechanic inpupt
         if(Input.GetKeyDown("q") == true && energyMeter > 50)
         {
             blastActive = true;
         }
-
+        blastActive = false;
+        //UltraBlast mechanic input
+        if (Input.GetKeyDown("r"))
+        {
+            Debug.Log("r pressed");
+            ultaBlastActive = true;
+        }
+        ultaBlastActive = false;
         //Control variables
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");

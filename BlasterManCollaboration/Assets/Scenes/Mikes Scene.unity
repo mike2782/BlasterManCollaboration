@@ -151,6 +151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 701630838}
     m_Modifications:
+    - target: {fileID: 1226539199841398712, guid: 0cc266a78797e944d95c5614cdf20b2f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1226539199841398713, guid: 0cc266a78797e944d95c5614cdf20b2f, type: 3}
       propertyPath: henchmanTypes.Array.data[0]
       value: 
@@ -571,6 +575,8 @@ MonoBehaviour:
   blastSkillPrefab6: {fileID: 2624976550542632736, guid: 8f2a6421ad631c1419feef16f2cbe6ed, type: 3}
   blastSkillPrefab7: {fileID: 2624976550542632736, guid: 8f2a6421ad631c1419feef16f2cbe6ed, type: 3}
   blastSkillPrefab8: {fileID: 2624976550542632736, guid: 8f2a6421ad631c1419feef16f2cbe6ed, type: 3}
+  enemies: []
+  moreEnemies: []
   moveSpeed: 10
 --- !u!4 &1060999630 stripped
 Transform:

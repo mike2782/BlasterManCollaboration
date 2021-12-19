@@ -15,8 +15,12 @@ public class blastBehaviour : MonoBehaviour
     public GameObject blastSkillPrefab7;
     public GameObject blastSkillPrefab8;
 
+    public GameObject[] enemies;
+    public GameObject[] moreEnemies;
+
     [SerializeField] 
     private float moveSpeed = 1.0f;
+    private int i;
 
     // Update is called once per frame
     void Update()
@@ -42,12 +46,33 @@ public class blastBehaviour : MonoBehaviour
 
             player.blastActive = false;
         }
-        //Blast Mechanic
-        /*if(Input.GetKeyDown("q") == true && energyMeter > 50)
+
+        //UlttraBlast Mechanic
+        if(player.ultaBlastActive == true)
         {
-            Vector3 direction = new Vector3(0.0f, 1.0f, 0.0f); 
-            currentBlastBall = 
-            currentBlastBall(transform.Translate(direction);
-        }*/
+            if (enemies == null)
+            {
+
+                enemies = GameObject.FindGameObjectsWithTag("ShooterEnemy");
+
+
+                for (i = 0; i < enemies.Length; i++)
+                {
+                    Debug.Log(enemies[i]);
+                    Destroy(enemies[i]);
+                }
+            }
+
+            if (moreEnemies == null)
+            {
+
+                moreEnemies = GameObject.FindGameObjectsWithTag("MeleeEnemy");
+
+                for (i = 0; i < moreEnemies.Length; i++)
+                {
+                    Destroy(moreEnemies[i]);
+                }
+            }
+        }
     }
 }
