@@ -21,20 +21,15 @@ public class MeleeController : MonoBehaviour
         if (collision.gameObject.tag == "LaserEyes")
         {
             health -= 1;
-
-            //what ever else the code needs to do
         }
 
-if (collision.gameObject.tag == "Player")
-{
-    health -= 1;
-}
+        if (collision.gameObject.tag == "Player")
+        {
+            health -= 1;
+        }
 
 
-if (health <= 0)
-{
-    Destroy(gameObject);
-}
+
     }
 
     // Update is called once per frame
@@ -44,7 +39,7 @@ if (health <= 0)
 
         if (health <= 0)
         {
-            Object.DestroyImmediate(this);
+            Destroy(this.gameObject);
         }
 
     }
