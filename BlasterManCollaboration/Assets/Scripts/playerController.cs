@@ -39,7 +39,7 @@ public class playerController : MonoBehaviour
     GameObject currentInvisibleBullet;
     GameObject currentShield;
 
-    float energyMeter = 100;   
+    public float energyMeter = 100;   
  
     // Update is called once per frame
     void Update()
