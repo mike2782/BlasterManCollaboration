@@ -656,3 +656,4 @@ Received Import Request.
 Start importing Assets/prefabs/InvisibleBullet.prefab using Guid(e14771c71c2f1574d876f7d8444da7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900888c22506591903c80c0b1fca861a') in 1.841032 seconds 
   Import took 1.850025 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
