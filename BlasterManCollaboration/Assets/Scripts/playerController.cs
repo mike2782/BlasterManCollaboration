@@ -43,7 +43,7 @@ public class playerController : MonoBehaviour
     GameObject currentShield;
     GameObject currentBlastBall;
 
-    float energyMeter = 100;   
+    public float energyMeter = 100;   
  
     // Update is called once per frame
     void Update()

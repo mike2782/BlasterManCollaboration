@@ -189,8 +189,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278216959
+  m_fontColor: {r: 1, g: 0.406206, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -405,8 +405,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294907672
-  m_fontColor: {r: 0.09400227, g: 0.08962262, b: 1, a: 1}
+    rgba: 4278210815
+  m_fontColor: {r: 1, g: 0.3142193, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -894,6 +894,7 @@ GameObject:
   - component: {fileID: 370690965}
   - component: {fileID: 370690964}
   - component: {fileID: 370690963}
+  - component: {fileID: 370690966}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -966,6 +967,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &370690966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370690962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f26efb4556da0840b73822a62ceeede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  henchmanTypes:
+  - {fileID: 1126283678420526112, guid: 74949748c08b22a4f946c6a8fddd9f18, type: 3}
+  - {fileID: 8914646265596069572, guid: e991bdb966431944ba732b811391c76b, type: 3}
+  henchmanSpawnTime: 1
 --- !u!1 &399429220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,7 +1075,6 @@ GameObject:
   m_Component:
   - component: {fileID: 408831448}
   - component: {fileID: 408831450}
-  - component: {fileID: 408831449}
   - component: {fileID: 408831451}
   m_Layer: 0
   m_Name: Energy Bar
@@ -1088,19 +1104,6 @@ RectTransform:
   m_AnchoredPosition: {x: 347, y: -488.49}
   m_SizeDelta: {x: 275.8335, y: 55.022}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &408831449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408831447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ba2d38beeaa27a40b33273115edafd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 0}
 --- !u!114 &408831450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1164,6 +1167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f669172856fa70949a238005019fe492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 408831450}
+  player: {fileID: 1039237852}
 --- !u!1 &477780232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1337,7 @@ GameObject:
   - component: {fileID: 591677486}
   - component: {fileID: 591677488}
   - component: {fileID: 591677487}
+  - component: {fileID: 591677489}
   m_Layer: 0
   m_Name: Chipimage
   m_TagString: Untagged
@@ -1396,6 +1402,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591677485}
   m_CullTransparentMesh: 1
+--- !u!114 &591677489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591677485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706ed0c229b90bf46bb6e2c1c05f5258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipFaces:
+  - {fileID: 591677485}
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 1951921403}
+  fontName: 
 --- !u!1 &622026282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,9 +1836,10 @@ GameObject:
   - component: {fileID: 1039237854}
   - component: {fileID: 1039237853}
   - component: {fileID: 1039237852}
+  - component: {fileID: 1039237856}
   m_Layer: 0
   m_Name: BlasterMan Sprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1850,11 +1875,12 @@ MonoBehaviour:
   speed: 5
   shootTimer: 0.5
   dodgeTimer: 2
-  dodgeSpeed: 0
+  dodgeSpeed: 3
   blastSkillObjects: {fileID: 0}
   laserEyes: {fileID: 4100484703150868849, guid: fd7ede1db3277b4419f755741d165ac7, type: 3}
-  invisibleBullet: {fileID: 0}
-  shieldPrefab: {fileID: 0}
+  invisibleBullet: {fileID: 8003401387858905326, guid: e14771c71c2f1574d876f7d8444da7b1, type: 3}
+  shieldPrefab: {fileID: 2561881557831313057, guid: 3b2de000506e5e54a8e1e93959207936, type: 3}
+  energyMeter: 100
 --- !u!50 &1039237853
 Rigidbody2D:
   serializedVersion: 4
@@ -1875,7 +1901,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!60 &1039237854
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1971,6 +1997,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1039237856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039237850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ad58ddfe6ff6440b81b1360804dd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1039237852}
+  chipsOnShoulder: 0
+  egoMeter: 100
+  blasterMan: {fileID: 0}
 --- !u!1 &1132585310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,8 +2079,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278214655
+  m_fontColor: {r: 1, g: 0.37061158, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2157,6 +2199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1169204353}
+  player: {fileID: 1039237856}
 --- !u!114 &1169204353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2274,8 +2317,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278215423
+  m_fontColor: {r: 1, g: 0.38385588, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2823,6 +2866,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951742205}
   m_CullTransparentMesh: 1
+--- !u!1 &1951921401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1951921402}
+  - component: {fileID: 1951921403}
+  - component: {fileID: 1951921404}
+  m_Layer: 0
+  m_Name: DamageControl
+  m_TagString: PlayerDamage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1951921402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951921401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1989871084}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1951921403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951921401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ad58ddfe6ff6440b81b1360804dd63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1039237852}
+  chipsOnShoulder: 0
+  egoMeter: 100
+  blasterMan: {fileID: 1039237850}
+--- !u!61 &1951921404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951921401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.03440535}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.2041905}
+  m_EdgeRadius: 0
 --- !u!1 &1976395636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +3033,7 @@ GameObject:
   - component: {fileID: 1989871084}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2933,6 +3050,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1039237851}
+  - {fileID: 1951921402}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3002,8 +3120,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278212863
+  m_fontColor: {r: 1, g: 0.34400782, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
